@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:drawable/edit_text"
+    android:bottomLeftRadius="20dp"
+    android:bottomRightRadius="20dp"
+    android:color="#99CCFF"
+    android:topLeftRadius="20dp"
+    android:topRightRadius="20dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="115dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/yaopin_img2" />
+
+    <TextView
+        android:id="@+id/tv_drugname"
+        android:layout_width="312dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp" />
+
+</LinearLayout>

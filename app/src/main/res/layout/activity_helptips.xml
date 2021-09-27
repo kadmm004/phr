@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mine.HelptipsActivity">
+
+    <LinearLayout
+        android:id="@+id/mine_full_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFFFFF">
+        <ImageView
+            android:id="@+id/iv_back_fill"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:src="@drawable/icon_return"
+            android:layout_margin="5dp">
+        </ImageView>
+        <TextView
+            android:id="@+id/tv_title_fill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="帮助"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="135dp">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorWhite">
+        <EditText
+            android:id="@+id/ev_drug_search"
+            android:layout_width="379dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:background="@android:drawable/edit_text"
+            android:text="请输入查询帮助关键词"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Space
+            android:layout_width="394dp"
+            android:layout_height="19dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="常见问题"
+            android:textSize="25dp"
+            android:textColor="#1261e0"
+            android:layout_marginLeft="20dp">
+        </TextView>
+
+        <Space
+            android:layout_width="394dp"
+            android:layout_height="19dp" />
+
+        <ListView
+            android:id="@+id/lv_durg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

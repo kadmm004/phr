@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.phr">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".appoint.ConfirmActivity"></activity>
+        <activity android:name=".appoint.DeptSelectActivity"/>
+        <activity android:name=".appoint.DocSelectActivity"/>
+        <activity android:name=".appoint.RegionSelectActivity"/>
+        <activity android:name=".appoint.RegisterActivity"/>
+
+        <activity android:name=".home.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".home.NewregistActivity" >
+
+        </activity>
+
+        <activity android:name=".home.WelcomeActivity"/>
+
+        <activity android:name=".wiki.DrugInfoActivity"/>
+        <activity android:name=".wiki.DrugInquiryActivity"/>
+        <activity android:name=".wiki.HealthhomeActivity"/>
+        <activity android:name=".wiki.HealthNewsActivity"/>
+        <activity android:name=".wiki.HealthNewsInfoActivity"/>
+        <activity android:name=".wiki.HealthstationActivity"/>
+        <activity android:name=".wiki.HealthTipActivity"/>
+        <activity android:name=".wiki.HealthTipInfoActivity"/>
+
+        <activity android:name=".mine.HelptipsActivity" />
+        <activity android:name=".mine.SettingsActivity" />
+        <activity android:name=".mine.AddnewillsActivity" />
+        <activity android:name=".mine.AddphrdocActivity" />
+        <activity android:name=".mine.FillphrinfoActivity" >
+
+        </activity>
+        <activity android:name=".mine.MyphrdocActivity" />
+        <activity android:name=".mine.FillperinfoActivity" />
+
+        <activity android:name=".MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>

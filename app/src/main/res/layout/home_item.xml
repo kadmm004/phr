@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00FFFFFF"
+    android:bottomLeftRadius="20dp"
+    android:bottomRightRadius="20dp"
+    android:color="#99CCFF"
+    android:textAlignment="center"
+    android:topLeftRadius="20dp"
+    android:topRightRadius="20dp">
+
+    <Space
+        android:layout_width="3dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="4dp" />
+
+        <TextView
+            android:id="@+id/tv_health_station_info"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="0dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="30sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="4dp" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="3dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+</LinearLayout>

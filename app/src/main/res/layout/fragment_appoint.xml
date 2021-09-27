@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/colorWhite">
+
+            <ImageButton
+                android:id="@+id/ib_returnIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/icon_return"
+                android:contentDescription="TODO" />
+
+            <TextView
+                android:id="@+id/tv_topGuide"
+                android:layout_width="330dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="@string/topGuide_register"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+
+            <ImageButton
+                android:id="@+id/ib_shareIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/icon_share"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorWhite">
+            <EditText
+                android:id="@+id/ev_registSearch"
+                android:layout_marginLeft="15dp"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="搜索医院，医生，科室，疾病"
+                android:textColor="@color/colorLightGray"
+                android:background="@android:drawable/edit_text"
+                />
+
+            <ImageButton
+                android:id="@+id/ib_search"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:background="#00000000"
+                android:scaleType="centerInside"
+                android:src="@drawable/registpage_quanguo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:layout_marginTop="5dp">
+
+            <ImageButton
+                android:id="@+id/ib_tijian"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:src="@drawable/registpage_tijian"/>
+            <ImageButton
+                android:id="@+id/ib_report"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:src="@drawable/registpage_report"/>
+            <ImageButton
+                android:id="@+id/ib_assistant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:src="@drawable/registpage_assistant"/>
+            <ImageButton
+                android:id="@+id/ib_board"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:src="@drawable/registpage_board"/>
+
+        </LinearLayout>
+        <!--条件选择-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorWhite">
+
+            <!--综合排序-->
+            <Spinner
+                android:id="@+id/sp_sort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_gravity="center"
+                />
+            <!--医院等级-->
+            <Spinner
+                android:id="@+id/sp_hosclass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dialog"
+                android:layout_gravity="center"
+                />
+
+            <!--医院类型-->
+            <Spinner
+                android:id="@+id/sp_hostype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dialog"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+
+
+
+        <ListView
+            android:id="@+id/lv_hospitals"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+        </ListView>
+
+
+    </LinearLayout>
+</ScrollView>

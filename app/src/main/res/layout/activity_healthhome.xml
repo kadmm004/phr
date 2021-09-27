@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HealthTipActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0FFFFFFF"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="217dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bk1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/edit_text"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="82dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/shangchuan_head2"
+                            android:layout_width="253dp"
+                            android:layout_height="81dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:layout_marginStart="24dp"
+                            android:layout_marginTop="37dp"
+                            android:layout_marginBottom="29dp"
+                            android:background="@drawable/health_tip_img1" />
+
+                    </LinearLayout>
+
+                    <ListView
+                        android:id="@+id/lv_healthtip"
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp">
+                    </ListView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/ib_moreIcon"
+                            android:layout_width="167dp"
+                            android:layout_height="65dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/more_img2"
+                            android:contentDescription="TODO" />
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/edit_text"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/ib_jiankansudiIcon"
+                        android:layout_width="190dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@drawable/img2"
+                        android:contentDescription="TODO" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <ImageButton
+                        android:id="@+id/ib_yaopinchaxunIcon"
+                        android:layout_width="186dp"
+                        android:layout_height="87dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/img1"
+                        android:contentDescription="TODO" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/edit_text"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="健康情报站"
+                        android:textSize="36sp"
+                        android:textStyle="bold" />
+
+                    <ListView
+                        android:id="@+id/lv_healthstation"
+                        android:layout_width="match_parent"
+                        android:layout_height="244dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

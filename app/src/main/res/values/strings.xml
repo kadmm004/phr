@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">PHR</string>
+    <string name="topGuide_register">预约挂号</string>
+    <string name="topGuide_healthsation">健康情报站</string>
+    <string name="topGuide_healthnews">健康新闻速递</string>
+    <string name="topGuide_drug_inquiry">药品查询</string>
+    <string name="topGuide_drug_info">药品详情</string>
+    <string name="topGuide_drug_tip">健康小贴士</string>
+    <string name="topGuide_health_tip_info">健康小贴士详情</string>
+    <string name="topGuide_healthsation_title">
+      夏季如何调理肠胃？“三戒三宜”助消化
+    </string>
+    <string name="topGuide_healthsation_content">
+              盛夏已至，天气越来越炎热，胃肠道疾病也到了高发季。如何才能有效地调整胃肠功能，预防胃肠疾病？今天就和大家说说“三戒三宜”。
+        【一戒过食生冷】
+              夏季，在气温升高的同进，大自然的阳气日渐旺盛，自然界的湿度也随之增加。相应的，人体内的湿气也会相应增加。人们往往食欲不振，总喜欢吃点清凉爽口的东西，各种冷饮、凉食、凉菜便大行其道。虽然凉食爽口，但过食则损伤脾胃阳气，加重体内的湿气，食欲更差，同时还可能出现胃脘胀闷，大便稀溏等症状。
+        【二戒过食辛辣】
+              辛辣之物有化湿通气的作用，可以增加食欲。夏天阳气旺盛，阳气性动上行而散。有的人天气一热便觉得身软乏力，多汗，精神不振，便是因为阳气过盛，汗出过多，致气阴两伤。如果再过食辛辣，辛能散气，热能伤阴，会加重人体气阴的损伤。虽然有爽口之效，但却埋下了耗气伤阴的隐患。
+        【三戒多食暴饮】
+        天气炎热，脾胃湿气渐盛，湿困脾胃，导致食欲不振，汗出过多，又可损伤气阴，所以人体胃肠的消化功能明显下降。因为天气炎热，人们喜欢边吃宵夜边纳凉，无形之中便会多食暴饮。胃肠功能本就下降，再加多食暴饮，则胃肠的负担更重，容易导致胃肠功能紊乱。
+    </string>
+    <string name="TODO">欢迎进入PHR</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="identity_kind">证件类型</string>
+    <string name="phrinfo_marriage">婚姻状态</string>
+    <string name="phrinfo_kid">生育状况</string>
+
+    <string name="phrinfo_somke">吸烟史</string>
+    <string name="phrinfo_drink">饮酒史</string>
+    <string name="phrinfo_allergy">过敏史</string>
+    <string name="phrinfo_diet">饮食偏好</string>
+    <string name="phrinfo_exercise">运动频率</string>
+
+</resources>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mine.FillperinfoActivity">
+
+    <LinearLayout
+        android:id="@+id/mine_fill"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/mine_fill_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#cccccc">
+            <ImageView
+                android:id="@+id/iv_back_fill"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:src="@drawable/icon_return"
+                android:layout_margin="5dp">
+            </ImageView>
+            <TextView
+                android:id="@+id/tv_title_fill"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="完善信息"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginRight="140dp">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_tip"
+                android:textSize="14dp"
+                android:textStyle="normal"
+                android:layout_marginTop="10dp"
+                android:text="请务必填写真实信息，您的信息我们将严格保密。"
+                android:gravity="center">
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/tab_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="帐号"
+                    android:textColor="#000000"
+                    android:textSize="26dp">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/ev_username_fill"
+                    android:layout_width="288dp"
+                    android:layout_height="wrap_content"
+                    android:ems="20"
+                    android:hint="请输入您的用户名"
+                    android:layout_marginLeft="20dp">
+
+                </EditText>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tab_realname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="姓名"
+                    android:textColor="#000000"
+                    android:textSize="26dp">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/ev_name_fill"
+                    android:layout_width="288dp"
+                    android:layout_height="wrap_content"
+                    android:ems="20"
+                    android:hint="请输入您的真实姓名"
+                    android:layout_marginLeft="20dp">
+
+                </EditText>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tab_identity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp">
+
+
+                <Spinner
+                    android:id="@+id/spin_identity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/identityChoose"
+                    android:prompt="@string/identity_kind">
+                </Spinner>
+
+                <EditText
+                    android:id="@+id/ev_identity_fill"
+                    android:layout_width="288dp"
+                    android:layout_height="wrap_content"
+                    android:ems="15"
+                    android:hint="请输入您的证件信息"
+                    android:layout_marginLeft="20dp">
+
+                </EditText>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@id/btn_submmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="提交"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:background="#40a6e2">
+
+            </Button>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

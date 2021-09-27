@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="identityChoose">
+        <item>身份证</item>
+        <item>护照</item>
+        <item>居住证</item>
+    </string-array>
+
+    <string-array name="marriageChoose">
+        <item>已婚</item>
+        <item>未婚</item>
+        <item>保密</item>
+    </string-array>
+
+    <string-array name="kidChoose">
+        <item>已育</item>
+        <item>未育</item>
+        <item>保密</item>
+    </string-array>
+
+    <string-array name="smokeChoose">
+        <item>吸烟</item>
+        <item>不吸烟</item>
+        <item>已戒烟</item>
+    </string-array>
+    <string-array name="drinkChoose">
+        <item>不饮酒</item>
+        <item>偶尔</item>
+        <item>1-3次/月</item>
+        <item>少于1天/月</item>
+        <item>经常</item>
+        <item>5-6天/周</item>
+        <item>3-4天/周</item>
+        <item>1-2天/周</item>
+        <item>每天</item>
+        <item>应酬性饮酒</item>
+        <item>酗酒</item>
+    </string-array>
+    <string-array name="allergyChoose">
+        <item>有过敏</item>
+        <item>无过敏</item>
+        <item>不清楚</item>
+    </string-array>
+    <string-array name="dietChoose">
+        <item>荤素均衡</item>
+        <item>以荤为主</item>
+        <item>以素为主</item>
+    </string-array>
+    <string-array name="exerciseChoose">
+        <item>每天</item>
+        <item>每周1次以上</item>
+        <item>5次~6次/周</item>
+        <item>3次~4次/周</item>
+        <item>1次~2次/周</item>
+        <item>不运动</item>
+    </string-array>
+
+
+</resources>
